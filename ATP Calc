@@ -1,0 +1,295 @@
+<script>
+var sel = document.getElementById('hack44-select');
+var button1 = document.getElementById('ATP04_1');
+button1.addEventListener('click', function (e) {
+    sel.options[1].selected = true;
+    fireEvent(sel,'change');
+});
+function fireEvent(element,event){
+    if (document.createEventObject){
+    // dispatch for IE
+    var evt = document.createEventObject();
+    return element.fireEvent('on'+event,evt)
+    }
+    else{
+    var evt = document.createEvent("HTMLEvents");
+    evt.initEvent(event, true, true ); 
+    return !element.dispatchEvent(evt);
+    }
+}
+
+var button2 = document.getElementById('ATP07_1');
+button2.addEventListener('click', function (e) {
+    sel.options[2].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button3 = document.getElementById('ATP04_2');
+button3.addEventListener('click', function (e) {
+    sel.options[3].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button4 = document.getElementById('ATP07_2');
+button4.addEventListener('click', function (e) {
+    sel.options[4].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button5 = document.getElementById('ATP04_3');
+
+button5.addEventListener('click', function (e) {
+    sel.options[5].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button6 = document.getElementById('ATP07_3');
+
+button6.addEventListener('click', function (e) {
+    sel.options[6].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button7 = document.getElementById('ATP04_4');
+
+button7.addEventListener('click', function (e) {
+    sel.options[7].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button8 = document.getElementById('ATP07_4');
+
+button8.addEventListener('click', function (e) {
+    sel.options[8].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button9 = document.getElementById('ATP04_5');
+
+button9.addEventListener('click', function (e) {
+    sel.options[9].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button10 = document.getElementById('ATP07_5');
+
+button10.addEventListener('click', function (e) {
+    sel.options[10].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button11 = document.getElementById('ATP04_6');
+
+button11.addEventListener('click', function (e) {
+    sel.options[11].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button12 = document.getElementById('ATP07_6');
+
+button12.addEventListener('click', function (e) {
+    sel.options[12].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button13 = document.getElementById('ATP04_7');
+
+button13.addEventListener('click', function (e) {
+    sel.options[13].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button14 = document.getElementById('ATP07_7');
+
+button14.addEventListener('click', function (e) {
+    sel.options[14].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button15 = document.getElementById('ATP04_8');
+
+button15.addEventListener('click', function (e) {
+    sel.options[15].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button16 = document.getElementById('ATP07_8');
+
+button16.addEventListener('click', function (e) {
+    sel.options[16].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button17 = document.getElementById('ATP04_9');
+
+button17.addEventListener('click', function (e) {
+    sel.options[17].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button18 = document.getElementById('ATP07_9');
+button18.addEventListener('click', function (e) {
+    sel.options[18].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button19 = document.getElementById('ATP04_10');
+button19.addEventListener('click', function (e) {
+    sel.options[19].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button20 = document.getElementById('ATP07_10');
+button20.addEventListener('click', function (e) {
+    sel.options[20].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button21 = document.getElementById('ATP04_1x');
+button21.addEventListener('click', function (e) {
+    sel.options[1].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button22 = document.getElementById('ATP07_1x');
+button22.addEventListener('click', function (e) {
+    sel.options[2].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button23 = document.getElementById('ATP04_2x');
+button23.addEventListener('click', function (e) {
+    sel.options[3].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button24 = document.getElementById('ATP07_2x');
+button24.addEventListener('click', function (e) {
+    sel.options[4].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button25 = document.getElementById('ATP04_3x');
+
+button25.addEventListener('click', function (e) {
+    sel.options[5].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button26 = document.getElementById('ATP07_3x');
+
+button26.addEventListener('click', function (e) {
+    sel.options[6].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button27 = document.getElementById('ATP04_4x');
+
+button27.addEventListener('click', function (e) {
+    sel.options[7].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button28 = document.getElementById('ATP07_4x');
+
+button28.addEventListener('click', function (e) {
+    sel.options[8].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button29 = document.getElementById('ATP04_5x');
+
+button29.addEventListener('click', function (e) {
+    sel.options[9].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button30 = document.getElementById('ATP07_5x');
+
+button30.addEventListener('click', function (e) {
+    sel.options[10].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button31 = document.getElementById('ATP04_6x');
+
+button31.addEventListener('click', function (e) {
+    sel.options[11].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button32 = document.getElementById('ATP07_6x');
+
+button32.addEventListener('click', function (e) {
+    sel.options[12].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button33 = document.getElementById('ATP04_7x');
+
+button33.addEventListener('click', function (e) {
+    sel.options[13].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button34 = document.getElementById('ATP07_7x');
+
+button34.addEventListener('click', function (e) {
+    sel.options[14].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button35 = document.getElementById('ATP04_8x');
+
+button35.addEventListener('click', function (e) {
+    sel.options[15].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button36 = document.getElementById('ATP07_8x');
+
+button36.addEventListener('click', function (e) {
+    sel.options[16].selected = true;
+    fireEvent(sel,'change');
+});
+
+
+var button37 = document.getElementById('ATP04_9x');
+
+button37.addEventListener('click', function (e) {
+    sel.options[17].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button38 = document.getElementById('ATP07_9x');
+button38.addEventListener('click', function (e) {
+    sel.options[18].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button39 = document.getElementById('ATP04_10x');
+button39.addEventListener('click', function (e) {
+    sel.options[19].selected = true;
+    fireEvent(sel,'change');
+});
+
+var button40 = document.getElementById('ATP07_10x');
+button40.addEventListener('click', function (e) {
+    sel.options[20].selected = true;
+    fireEvent(sel,'change');
+});
+
+</script>
